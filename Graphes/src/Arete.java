@@ -4,7 +4,11 @@ public class Arete {
 	private Noeud noeudDebut;
 	
 	public Arete(Noeud noeudDebut,Noeud noeudFin){
+		this.noeudDebut = noeudDebut;
+		this.noeudFin = noeudFin;
 		
+		noeudDebut.addArete(this);
+		noeudFin.addArete(this);
 	}
 	
 	/**
