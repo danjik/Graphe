@@ -1,6 +1,6 @@
 
 public class Noeud {
 	public static void main(String[] args){
-		System.out.println("2DQSDQ");
+		System.out.println("Tarba");
 	}
 }
